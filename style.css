@@ -1,0 +1,225 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(90deg,blue,orange);
+}
+h1{
+    text-align: center;
+    color:antiquewhite;
+}
+.main-headings{
+    font-size: 25px;
+    font-weight: bold;
+    color:antiquewhite;
+    text-align: center;
+    text-decoration: underline;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    column-gap: 35px;
+}
+.card-heading{
+    color:black;
+    opacity: 0;
+}
+.gods-1{
+    background-image: url("https://img.freepik.com/premium-photo/photo-hindu-lovely-idol-hanuman-ji-generator-by-ai_911060-25462.jpg");
+    background-size: contain;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-2{
+    background-image: url("https://cdn.pixabay.com/photo/2024/02/20/10/04/ai-generated-8585102_1280.jpg");
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-3{
+    background-image: url("https://preview.redd.it/i-created-this-beautiful-picture-of-lord-shiva-using-dale-e-v0-pgz737d5pdyb1.png?width=1024&format=png&auto=webp&s=44d8520b1734593102958e7e927d707298e90d2f");
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-4{
+    background-image: url("https://img.freepik.com/premium-photo/lord-vishnu_669954-14537.jpg");
+    background-size: contain;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-5{
+    background-image: url("https://i.pinimg.com/474x/b3/ec/b8/b3ecb823d3fdee86707cb59a92b75d96.jpg");
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-6{
+    background-image: url("https://cdn.pixabay.com/photo/2023/06/23/08/46/ai-generated-8083033_640.png");
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-7{
+    background-image: url("https://img.freepik.com/premium-photo/illustration-lord-ganesha-ganesh-chaturthi-generative-ai_756405-11014.jpg");
+    background-size: contain;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-8{
+    background-image: url("https://img.freepik.com/premium-photo/navratri-goddess-durga-maa-puja-image-ai-generated-art_853163-2319.jpg");
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-9{
+    background-image: url("https://img.freepik.com/premium-photo/digital-painting-goddess-parvati-meditating_753333-1454.jpg");
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.gods-10{
+    background-image: url("https://img.freepik.com/premium-photo/maa-lakshmi_1037680-17679.jpg");
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    padding:10px 10px;
+    border-radius:20px;
+    box-shadow: black 0px 5px 15px;
+}
+.relative-text{
+    opacity:0;
+    font-size: 17px;
+    color:aliceblue;
+}
+.gods-1:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-2:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-3:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-4:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-5:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-6:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-7:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-8:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-9:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+.gods-10:hover{
+    .relative-text{
+        opacity: 1;
+    }
+    .card-heading{
+        opacity: 1;
+    }
+    background-image: linear-gradient(45deg,red,orange);
+}
+
+
+
